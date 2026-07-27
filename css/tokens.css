@@ -1,0 +1,53 @@
+:root {
+  --color-bg: #f5fbfc;
+  --color-bg-translucent: rgba(245, 251, 252, 0.82);
+  --color-surface: #ffffff;
+  --color-text: #0a0f14;
+  --color-text-muted: rgba(10, 15, 20, 0.65);
+  --color-border: rgba(0, 0, 0, 0.08);
+  --color-accent-cyan: #0891a8;
+  --color-accent-violet: #5b3df0;
+  --color-accent-orange: #c5661f;
+  --gradient-primary: linear-gradient(90deg, var(--color-accent-cyan), var(--color-accent-violet));
+
+  --radius-card: 22px;
+  --radius-pill: 999px;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --space-6: 96px;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+
+  --shadow-card: 0 1px 3px rgba(10, 15, 20, 0.06);
+  --shadow-card-hover: 0 20px 40px rgba(10, 15, 20, 0.12);
+
+  --transition-fast: 200ms ease;
+  --transition-medium: 300ms ease;
+}
+
+[data-theme="dark"] {
+  --color-bg: #0a0f14;
+  --color-bg-translucent: rgba(10, 15, 20, 0.82);
+  --color-surface: #10161c;
+  --color-text: #f2f6f7;
+  --color-text-muted: rgba(242, 246, 247, 0.65);
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-accent-cyan: #18c8d9;
+  --color-accent-violet: #7c5cff;
+  --color-accent-orange: #ff8a3d;
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.24);
+  --shadow-card-hover: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
