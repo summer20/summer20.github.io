@@ -250,3 +250,35 @@ button { font-family: inherit; }
   .hero-slogan { margin-left: auto; margin-right: auto; }
   .hero-visual { height: 280px; margin-top: var(--space-3); }
 }
+
+/* ===== About ===== */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+.about-card { padding: var(--space-3); }
+.about-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 8px;
+}
+.about-value { font-size: 16px; font-weight: 600; }
+.about-travel {
+  padding: var(--space-3);
+  font-size: 15px;
+  color: var(--color-text-muted);
+  border-left: 3px solid var(--color-accent-violet);
+  border-radius: var(--radius-card);
+}
+
+@media (max-width: 900px) {
+  .about-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .about-grid { grid-template-columns: 1fr; }
+}
