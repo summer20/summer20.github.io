@@ -303,7 +303,8 @@ button { font-family: inherit; }
    保留卡片占位尺寸即可，不强求无 JS 时也画出完整雷达图 */
 .radar-grid { fill: none; stroke: var(--color-border); stroke-width: 1; }
 .radar-data {
-  fill: rgba(91, 61, 240, 0.28);
+  fill: var(--color-accent-violet);
+  fill-opacity: 0.28;
   stroke: var(--color-accent-violet);
   stroke-width: 2;
 }
