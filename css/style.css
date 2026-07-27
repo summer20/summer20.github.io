@@ -282,3 +282,52 @@ button { font-family: inherit; }
 @media (max-width: 560px) {
   .about-grid { grid-template-columns: 1fr; }
 }
+
+/* ===== Skills ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: var(--space-3);
+}
+.skills-radar-card {
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+}
+.radar-chart-mount { width: 100%; max-width: 320px; min-height: 260px; }
+/* min-height 避免 JS 未执行、SVG 未被注入时这张卡片直接塌成 0 高度——
+   雷达图本身没有实用的纯 CSS 静态替代，属于设计文档里"JS 增强型"的可视化，
+   保留卡片占位尺寸即可，不强求无 JS 时也画出完整雷达图 */
+.radar-grid { fill: none; stroke: var(--color-border); stroke-width: 1; }
+.radar-data {
+  fill: rgba(91, 61, 240, 0.28);
+  stroke: var(--color-accent-violet);
+  stroke-width: 2;
+}
+.radar-label { font-size: 10px; fill: var(--color-text-muted); font-family: var(--font-sans); }
+
+.skill-ring-card {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: var(--space-3);
+}
+.skill-ring { width: 80px; height: 80px; }
+.skill-ring-track { fill: none; stroke: var(--color-border); stroke-width: 6; }
+.skill-ring-progress { fill: none; stroke: var(--color-accent-cyan); stroke-width: 6; stroke-linecap: round; }
+.skill-ring-value { font-size: 18px; font-weight: 800; margin-top: -54px; }
+.skill-name { font-size: 13px; font-weight: 600; color: var(--color-text-muted); margin-top: 40px; }
+
+@media (max-width: 900px) {
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .skills-radar-card { grid-column: span 2; }
+}
+@media (max-width: 560px) {
+  .skills-grid { grid-template-columns: 1fr; }
+  .skills-radar-card { grid-column: span 1; }
+}

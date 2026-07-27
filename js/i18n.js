@@ -30,7 +30,8 @@ window.CONTENT_ZH = {
     labelHobbies: '兴趣爱好',
     valueHobbies: '阅读、普拉提、游泳、尤克里里、旅行',
     travelNote: '旅行是我和朋友们的固定节目：轮流组队当"导游"，那一次由导游全权安排行程，其余人无条件跟随——目前已经轮了好几轮。'
-  }
+  },
+  skills: { eyebrow: 'SKILLS', title: '技能' }
 };
 
 window.CONTENT_EN = {
@@ -65,5 +66,6 @@ window.CONTENT_EN = {
     labelHobbies: 'Hobbies',
     valueHobbies: 'Reading, Pilates, Swimming, Ukulele, Travel',
     travelNote: 'Travel is a running tradition with my friends: we take turns being the "tour guide" for a trip — that person plans everything, and everyone else follows without question. We\'ve been through several rounds already.'
-  }
+  },
+  skills: { eyebrow: 'SKILLS', title: 'Skills' }
 };
