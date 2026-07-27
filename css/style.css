@@ -332,3 +332,24 @@ button { font-family: inherit; }
   .skills-grid { grid-template-columns: 1fr; }
   .skills-radar-card { grid-column: span 1; }
 }
+
+/* ===== Experience ===== */
+.timeline { display: flex; flex-direction: column; gap: var(--space-3); }
+.timeline-item { padding: var(--space-3); }
+.timeline-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); flex-wrap: wrap; }
+.timeline-head h3 { font-size: 20px; font-weight: 800; }
+.timeline-period { font-size: 13px; color: var(--color-text-muted); font-weight: 600; }
+.timeline-role { font-size: 14px; color: var(--color-accent-violet); font-weight: 700; margin: 4px 0 var(--space-2); }
+.timeline-bullets { display: flex; flex-direction: column; gap: 6px; margin-bottom: var(--space-2); }
+.timeline-bullets li { font-size: 14px; color: var(--color-text-muted); padding-left: 16px; position: relative; }
+.timeline-bullets li::before { content: '—'; position: absolute; left: 0; color: var(--color-accent-cyan); }
+.timeline-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: var(--space-2); }
+.timeline-tags span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+}
+.timeline-highlight { font-size: 14px; font-weight: 700; color: var(--color-accent-orange); }
