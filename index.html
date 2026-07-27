@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>陈慧莹 · 数据分析师 | Data Analyst Portfolio</title>
   <meta name="description" content="陈慧莹的个人品牌官网 — 数据分析、风险分析、AI 应用与自动化实践">
-  <script>document.documentElement.classList.add('js');</script>
+  <script>(function () {
+    var t = localStorage.getItem('theme');
+    document.documentElement.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    document.documentElement.classList.add('js');
+  })();</script>
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -187,7 +191,7 @@
               <li data-i18n-key="experience.nio.bullet3">深度参与春节、五一能源保障项目，负责运营数据监控与复盘分析</li>
             </ul>
             <div class="timeline-tags">
-              <span>SQL</span><span>Excel</span><span>数据可视化</span>
+              <span>SQL</span><span>Excel</span><span data-i18n-key="experience.nio.tagViz">数据可视化</span>
             </div>
             <p class="timeline-highlight" data-i18n-key="experience.nio.highlight">保障运营数据 100% 准确及时输出</p>
           </div>

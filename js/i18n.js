@@ -47,7 +47,8 @@ window.CONTENT_ZH = {
       bullet1: '独立搭建月度运营数据报表体系，基于 SQL 完成业务数据提取、指标口径统一及数据可视化',
       bullet2: '跟踪换电站运营表现及 VOC 用户反馈，构建问题分类体系并输出专题分析报告',
       bullet3: '深度参与春节、五一能源保障项目，负责运营数据监控与复盘分析',
-      highlight: '保障运营数据 100% 准确及时输出'
+      highlight: '保障运营数据 100% 准确及时输出',
+      tagViz: '数据可视化'
     },
     zhouji: {
       company: '上海洲暨科技有限公司', period: '2025.01 – 2025.05', role: '数据分析实习生',
@@ -160,7 +161,8 @@ window.CONTENT_EN = {
       bullet1: 'Independently built a monthly operations reporting system, using SQL for data extraction, metric standardization, and visualization',
       bullet2: 'Tracked battery-swap station performance and VOC feedback, built an issue-classification framework and published thematic reports',
       bullet3: 'Supported Spring Festival and Labor Day energy-assurance projects with operations monitoring and post-mortem analysis',
-      highlight: 'Kept operations data 100% accurate and on time'
+      highlight: 'Kept operations data 100% accurate and on time',
+      tagViz: 'Data Visualization'
     },
     zhouji: {
       company: 'Shanghai Zhouji Technology', period: 'Jan 2025 – May 2025', role: 'Data Analyst Intern',
