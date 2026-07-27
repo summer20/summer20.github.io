@@ -92,6 +92,12 @@ window.CONTENT_ZH = {
     projects: '个核心项目',
     awards: '项国家级/国际级竞赛奖项',
     kpis: '项核心业务指标监控体系'
+  },
+  gallery: {
+    eyebrow: 'GALLERY',
+    title: '生活',
+    travel: '旅行', reading: '阅读', swim: '游泳', ukulele: '尤克里里',
+    pilates: '普拉提', award: '获奖时刻', study: '学习日常', friends: '朋友时光'
   }
 };
 
@@ -189,5 +195,11 @@ window.CONTENT_EN = {
     projects: 'Core projects delivered',
     awards: 'National / international competition awards',
     kpis: 'Core KPI monitoring systems built'
+  },
+  gallery: {
+    eyebrow: 'GALLERY',
+    title: 'Gallery',
+    travel: 'Travel', reading: 'Reading', swim: 'Swimming', ukulele: 'Ukulele',
+    pilates: 'Pilates', award: 'Award Moments', study: 'Study Life', friends: 'With Friends'
   }
 };
