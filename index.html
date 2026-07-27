@@ -300,10 +300,36 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="section"><!-- Task 9 --></section>
+    <section id="contact" class="section">
+      <div class="container contact-inner">
+        <p class="section-eyebrow" data-i18n-key="contact.eyebrow">CONTACT</p>
+        <h2 class="section-title" data-i18n-key="contact.title">联系我</h2>
+        <div class="contact-grid">
+          <a class="card contact-card" href="mailto:chenhuiying567@163.com" data-reveal>
+            <p class="contact-label" data-i18n-key="contact.emailLabel">邮箱</p>
+            <p class="contact-value">chenhuiying567@163.com</p>
+          </a>
+          <div class="card contact-card contact-card--wechat" data-reveal>
+            <p class="contact-label" data-i18n-key="contact.wechatLabel">微信</p>
+            <div class="wechat-qr-placeholder">
+              <span data-i18n-key="contact.wechatPending">二维码待替换</span>
+            </div>
+          </div>
+          <a class="card contact-card" href="assets/resume/陈慧莹_数据分析简历.pdf" download data-reveal>
+            <p class="contact-label" data-i18n-key="contact.resumeLabel">简历</p>
+            <p class="contact-value btn btn-primary" data-i18n-key="contact.resumeCta">下载简历</p>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer"><!-- Task 9 --></footer>
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-slogan" data-i18n-key="footer.slogan">Let's Build Something Amazing Together.</p>
+      <p class="footer-copy">© 2026 陈慧莹</p>
+    </div>
+  </footer>
 
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
