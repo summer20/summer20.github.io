@@ -31,7 +31,34 @@
   </nav>
 
   <main>
-    <section id="hero" class="hero"><!-- Task 2 --></section>
+    <section id="hero" class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="hero-blob hero-blob--cyan"></span>
+        <span class="hero-blob hero-blob--violet"></span>
+        <canvas id="particles" class="hero-particles"></canvas>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy" data-reveal>
+          <p class="section-eyebrow" data-i18n-key="hero.eyebrow">DATA ANALYST · AI 实践者</p>
+          <h1 class="hero-name">陈慧莹</h1>
+          <p class="hero-slogan" data-i18n-key="hero.slogan">用数据解决问题，用 AI 提升效率，把创意变成真正可落地的产品。</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-i18n-key="hero.ctaProjects">查看项目</a>
+            <a href="assets/resume/陈慧莹_数据分析简历.pdf" download class="btn btn-outline" data-i18n-key="hero.ctaResume">下载简历</a>
+            <a href="#contact" class="btn btn-outline" data-i18n-key="hero.ctaContact">联系我</a>
+          </div>
+        </div>
+        <div class="hero-visual" data-reveal>
+          <div class="hero-card">
+            <div class="hero-avatar" aria-hidden="true"></div>
+          </div>
+          <span class="hero-chip hero-chip--1">Python</span>
+          <span class="hero-chip hero-chip--2">SQL</span>
+          <span class="hero-chip hero-chip--3">Power BI</span>
+          <span class="hero-chip hero-chip--4">AI Tools</span>
+        </div>
+      </div>
+    </section>
     <section id="about" class="section"><!-- Task 3 --></section>
     <section id="skills" class="section"><!-- Task 4 --></section>
     <section id="experience" class="section"><!-- Task 5 --></section>
