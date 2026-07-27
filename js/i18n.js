@@ -56,6 +56,34 @@ window.CONTENT_ZH = {
       bullet3: '通过数据分析发现业务中的潜在问题或机会，推动业务优化',
       highlight: '交易率较三个月前提升 20%'
     }
+  },
+  projects: {
+    eyebrow: 'FEATURED PROJECTS',
+    title: '项目',
+    supplyChain: {
+      badge: '国竞一等奖',
+      title: '爆品供应链全渠道库存优化与风险建模研究',
+      desc: '构建 ARIMAX+TCN 需求预测模型，完成分渠道/分区域 13 周预测与风险区间测算；设计 MPC 动态库存优化框架，基于 XGBoost-SHAP 搭建风险传导模型',
+      metric: '库存周转率 +241.2% · 总成本 -25% · 服务水平 98.83%'
+    },
+    insurance: {
+      badge: '美国 MCM Honorable Mention',
+      title: '保险公司承保评级系统',
+      desc: '基于巨灾模型计算保险公司预期损失，通过泊松分布仿真模拟随机生成损失总价值和极端天气发生概率，采用空间分析技术构建 Bankruptcy Index Model',
+      metric: '覆盖 146 个国家、16 万条数据'
+    },
+    automation: {
+      badge: 'KN Group 实习产出',
+      title: '业务自动化分析工具',
+      desc: '基于 Python（Pandas、OpenPyXL）开发自动化数据分析工具，实现放款金额、资产表现、坏账率等多维数据自动清洗、透视统计及 Excel 报表生成',
+      metric: '大幅提升周报/月报产出效率'
+    },
+    website: {
+      badge: 'AI 实践',
+      title: '个人展示网页 / 简历投递辅助工具',
+      desc: '利用 AI 完成个人展示网页及简历投递辅助工具开发，实现网页快速搭建与功能验证',
+      pending: '项目截图待补充'
+    }
   }
 };
 
@@ -116,6 +144,34 @@ window.CONTENT_EN = {
       bullet2: 'Used Tableau to surface patterns, trends, and anomalies in the data',
       bullet3: 'Turned analysis into action by working directly with the business to fix root-cause issues',
       highlight: 'Lifted the transaction rate by 20% within three months'
+    }
+  },
+  projects: {
+    eyebrow: 'FEATURED PROJECTS',
+    title: 'Projects',
+    supplyChain: {
+      badge: '1st Prize, National Competition',
+      title: 'Omni-Channel Inventory Optimization & Risk Modeling for Hero SKUs',
+      desc: 'Built an ARIMAX+TCN demand forecasting model with 13-week forecasts and risk intervals by channel/region; designed an MPC dynamic inventory framework and an XGBoost-SHAP risk propagation model',
+      metric: 'Inventory turnover +241.2% · Total cost -25% · Service level 98.83%'
+    },
+    insurance: {
+      badge: 'US MCM Honorable Mention',
+      title: 'Insurance Underwriting Rating System',
+      desc: 'Estimated insurer expected losses via catastrophe modeling, simulated loss severity and extreme-weather probability with Poisson processes, and built a spatial Bankruptcy Index Model',
+      metric: 'Covered 146 countries, 160K+ data points'
+    },
+    automation: {
+      badge: 'KN Group Internship Output',
+      title: 'Business Automation Analytics Tool',
+      desc: 'Built automated analysis tooling in Python (Pandas, OpenPyXL) that auto-cleans, pivots, and generates Excel reports across disbursement, asset performance, and NPL data',
+      metric: 'Significantly sped up weekly/monthly reporting'
+    },
+    website: {
+      badge: 'AI Practice',
+      title: 'Personal Site / Resume-Application Assistant Tool',
+      desc: 'Built a personal showcase site and a resume-application assistant tool with AI-assisted development, from rapid scaffolding to feature validation',
+      pending: 'Screenshot coming soon'
     }
   }
 };

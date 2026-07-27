@@ -353,3 +353,59 @@ button { font-family: inherit; }
   border: 1px solid var(--color-border);
 }
 .timeline-highlight { font-size: 14px; font-weight: 700; color: var(--color-accent-orange); }
+
+/* ===== Projects ===== */
+.projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+.project-card { overflow: hidden; }
+.project-thumb { height: 160px; position: relative; overflow: hidden; }
+.project-thumb--supply-chain {
+  background: linear-gradient(135deg, var(--color-accent-cyan), var(--color-accent-violet));
+}
+.project-thumb--supply-chain::after {
+  content: ''; position: absolute; inset: -20%;
+  background: repeating-radial-gradient(circle at 50% 50%, transparent 0, transparent 18px, rgba(255,255,255,0.14) 19px, rgba(255,255,255,0.14) 20px);
+}
+.project-thumb--insurance {
+  background: linear-gradient(135deg, var(--color-accent-violet), var(--color-accent-orange));
+}
+.project-thumb--insurance::after {
+  content: ''; position: absolute; inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.12) 0 1px, transparent 1px 28px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.12) 0 1px, transparent 1px 28px);
+}
+.project-thumb--automation {
+  background: linear-gradient(135deg, var(--color-accent-cyan), var(--color-accent-orange));
+}
+.project-thumb--automation::after {
+  content: ''; position: absolute; inset: 0;
+  background: repeating-linear-gradient(45deg, rgba(255,255,255,0.14) 0 10px, transparent 10px 24px);
+}
+.project-thumb--pending {
+  border: 1px dashed var(--color-border);
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-thumb--pending span {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+.project-body { padding: var(--space-3); }
+.project-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-accent-violet);
+  margin-bottom: 8px;
+}
+.project-body h3 { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+.project-desc { font-size: 14px; color: var(--color-text-muted); margin-bottom: 10px; }
+.project-metric { font-size: 13px; font-weight: 700; color: var(--color-accent-orange); }
+
+@media (max-width: 768px) {
+  .projects-grid { grid-template-columns: 1fr; }
+}
