@@ -84,6 +84,14 @@ window.CONTENT_ZH = {
       desc: '利用 AI 完成个人展示网页及简历投递辅助工具开发，实现网页快速搭建与功能验证',
       pending: '项目截图待补充'
     }
+  },
+  achievements: {
+    eyebrow: 'ACHIEVEMENTS',
+    title: '成果',
+    internships: '段数据分析实习经历',
+    projects: '个核心项目',
+    awards: '项国家级/国际级竞赛奖项',
+    kpis: '项核心业务指标监控体系'
   }
 };
 
@@ -173,5 +181,13 @@ window.CONTENT_EN = {
       desc: 'Built a personal showcase site and a resume-application assistant tool with AI-assisted development, from rapid scaffolding to feature validation',
       pending: 'Screenshot coming soon'
     }
+  },
+  achievements: {
+    eyebrow: 'ACHIEVEMENTS',
+    title: 'Achievements',
+    internships: 'Data analytics internships',
+    projects: 'Core projects delivered',
+    awards: 'National / international competition awards',
+    kpis: 'Core KPI monitoring systems built'
   }
 };
