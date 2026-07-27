@@ -461,7 +461,7 @@ button { font-family: inherit; }
 .gallery-cell--reading { background: linear-gradient(135deg, #6d5bf6, #a78bfa); }
 .gallery-cell--swim { background: linear-gradient(135deg, #0891a8, #18c8d9); }
 .gallery-cell--ukulele { background: linear-gradient(135deg, var(--color-accent-orange), #f0b06b); }
-.gallery-cell--pilates { background: linear-gradient(135deg, #5b3df0, #0891a8); }
+.gallery-cell--pilates { background: linear-gradient(135deg, var(--color-accent-violet), var(--color-accent-cyan)); }
 .gallery-cell--award { background: linear-gradient(135deg, #c5661f, #7c5cff); }
 .gallery-cell--study { background: linear-gradient(135deg, #18c8d9, #5b3df0); }
 .gallery-cell--friends { background: linear-gradient(135deg, #7c5cff, #c5661f); }
