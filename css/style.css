@@ -428,7 +428,20 @@ button { font-family: inherit; }
   color: transparent;
   margin-bottom: 8px;
 }
-.achievement-label { font-size: 14px; color: var(--color-text-muted); }
+.achievement-label { font-size: 14px; color: var(--color-text-muted); margin-bottom: var(--space-2); }
+.achievement-list {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.achievement-list li {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  padding-left: 16px;
+  position: relative;
+}
+.achievement-list li::before { content: '—'; position: absolute; left: 0; color: var(--color-accent-cyan); }
 
 @media (max-width: 900px) {
   .achievements-grid { grid-template-columns: repeat(2, 1fr); }

@@ -98,7 +98,19 @@ window.CONTENT_ZH = {
     internships: '段数据分析实习经历',
     projects: '个核心项目',
     awards: '项国家级/国际级竞赛奖项',
-    kpis: '项核心业务指标监控体系'
+    kpis: '项核心业务指标监控体系',
+    list: {
+      knGroup: 'KN Group',
+      nio: '上海蔚来汽车有限公司',
+      zhouji: '上海洲暨科技有限公司',
+      award1: '全国大数据建模大赛一等奖',
+      award2: '"华为杯"国家级数学建模竞赛三等奖',
+      award3: '美国大学生数学建模竞赛 Honorable Mention',
+      kpi1: '注册成本 / CAC',
+      kpi2: '放款率与坏账率',
+      kpi3: 'CPS',
+      kpi4: '运营数据准确率'
+    }
   },
   gallery: {
     eyebrow: 'GALLERY',
@@ -216,7 +228,19 @@ window.CONTENT_EN = {
     internships: 'Data analytics internships',
     projects: 'Core projects delivered',
     awards: 'National / international competition awards',
-    kpis: 'Core KPI monitoring systems built'
+    kpis: 'Core KPI monitoring systems built',
+    list: {
+      knGroup: 'KN Group',
+      nio: 'NIO Inc.',
+      zhouji: 'Shanghai Zhouji Technology',
+      award1: '1st Prize, National Big Data Modeling Competition',
+      award2: 'Huawei Cup National Mathematical Modeling Competition, 3rd Prize',
+      award3: 'US MCM Honorable Mention',
+      kpi1: 'CAC (Customer Acquisition Cost)',
+      kpi2: 'Disbursement rate & NPL rate',
+      kpi3: 'CPS',
+      kpi4: 'Operations data accuracy'
+    }
   },
   gallery: {
     eyebrow: 'GALLERY',
