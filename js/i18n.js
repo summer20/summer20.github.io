@@ -38,23 +38,23 @@ window.CONTENT_ZH = {
     title: '经历',
     knGroup: {
       company: 'KN Group', period: '2026.06 – 2026.08', role: '数据分析实习生',
-      bullet1: '搭建注册→授信→放款→还款全链路转化漏斗及风险收益监控体系，跟踪注册成本、放款率、坏账率、CPS 等核心指标',
-      bullet2: '基于 Python 搭建坏账预测模型，完成多版本情景模拟及资产质量测算',
-      bullet3: '开发自动化数据分析工具，实现放款金额、资产表现、坏账率等多维数据自动清洗、透视统计及 Excel 报表生成',
+      bullet1: '从 0 到 1 搭建注册→授信→放款→还款全链路转化漏斗及风险收益监控体系，持续跟踪注册成本、放款率、坏账率、CPS 等核心指标，为业务决策提供实时数据支撑',
+      bullet2: '基于 Python 搭建坏账预测模型，完成多版本情景模拟及资产质量测算，辅助风险策略调整',
+      bullet3: '开发自动化数据分析工具，实现放款金额、资产表现、坏账率等多维数据自动清洗、透视统计及 Excel 报表生成，大幅减少人工整理时间',
       highlight: '大幅提升周报/月报产出效率'
     },
     nio: {
       company: '上海蔚来汽车有限公司', period: '2026.01 – 2026.06', role: '服务运营（数据分析方向）实习生',
-      bullet1: '独立搭建月度运营数据报表体系，基于 SQL 完成业务数据提取、指标口径统一及数据可视化',
-      bullet2: '跟踪换电站运营表现及 VOC 用户反馈，构建问题分类体系并输出专题分析报告',
-      bullet3: '深度参与春节、五一能源保障项目，负责运营数据监控与复盘分析',
+      bullet1: '独立搭建月度运营数据报表体系，基于 SQL 完成业务数据提取、指标口径统一及数据可视化，为跨部门汇报提供统一数据口径',
+      bullet2: '跟踪换电站运营表现及 VOC 用户反馈，构建问题分类体系并输出专题分析报告，协助运营团队定位高频问题',
+      bullet3: '深度参与春节、五一能源保障项目，负责运营数据监控与复盘分析，保障重大节假日期间服务稳定性',
       highlight: '保障运营数据 100% 准确及时输出',
       tagViz: '数据可视化'
     },
     zhouji: {
       company: '上海洲暨科技有限公司', period: '2025.01 – 2025.05', role: '数据分析实习生',
-      bullet1: '利用 MySQL 从 CRM 系统数据库获取交易数据，通过统计方法总结数据特征',
-      bullet2: '使用 Tableau 发现数据中的模式、趋势和异常数据',
+      bullet1: '利用 MySQL 从 CRM 系统数据库获取交易数据，通过统计方法总结数据特征，识别客户行为规律',
+      bullet2: '使用 Tableau 发现数据中的模式、趋势和异常数据，制作可视化看板辅助团队决策',
       bullet3: '通过数据分析发现业务中的潜在问题或机会，推动业务优化',
       highlight: '交易率较三个月前提升 20%'
     }
@@ -156,23 +156,23 @@ window.CONTENT_EN = {
     title: 'Experience',
     knGroup: {
       company: 'KN Group', period: 'Jun 2026 – Aug 2026', role: 'Data Analyst Intern',
-      bullet1: 'Built the full registration → credit → disbursement → repayment funnel and risk/return monitoring system; tracked KPIs including CAC, disbursement rate, NPL rate, and CPS',
-      bullet2: 'Built bad-debt prediction models in Python and ran multi-scenario simulations for asset-quality assessment',
-      bullet3: 'Developed automated analysis tooling for disbursement volume, asset performance, and NPL rate, with auto data cleaning, pivoting, and Excel report generation',
+      bullet1: 'Built the full registration → credit → disbursement → repayment funnel and risk/return monitoring system from scratch, continuously tracking KPIs including CAC, disbursement rate, NPL rate, and CPS to support real-time business decisions',
+      bullet2: 'Built bad-debt prediction models in Python and ran multi-scenario simulations for asset-quality assessment, informing risk strategy adjustments',
+      bullet3: 'Developed automated analysis tooling for disbursement volume, asset performance, and NPL rate, with auto data cleaning, pivoting, and Excel report generation, substantially cutting manual processing time',
       highlight: 'Significantly sped up weekly/monthly report turnaround'
     },
     nio: {
       company: 'NIO Inc.', period: 'Jan 2026 – Jun 2026', role: 'Service Operations (Data Analytics) Intern',
-      bullet1: 'Independently built a monthly operations reporting system, using SQL for data extraction, metric standardization, and visualization',
-      bullet2: 'Tracked battery-swap station performance and VOC feedback, built an issue-classification framework and published thematic reports',
-      bullet3: 'Supported Spring Festival and Labor Day energy-assurance projects with operations monitoring and post-mortem analysis',
+      bullet1: 'Independently built a monthly operations reporting system, using SQL for data extraction, metric standardization, and visualization, giving cross-team reporting a single consistent data source',
+      bullet2: 'Tracked battery-swap station performance and VOC feedback, built an issue-classification framework and published thematic reports, helping the operations team pinpoint high-frequency issues',
+      bullet3: 'Supported Spring Festival and Labor Day energy-assurance projects with operations monitoring and post-mortem analysis, helping keep service stable during major holidays',
       highlight: 'Kept operations data 100% accurate and on time',
       tagViz: 'Data Visualization'
     },
     zhouji: {
       company: 'Shanghai Zhouji Technology', period: 'Jan 2025 – May 2025', role: 'Data Analyst Intern',
-      bullet1: 'Pulled transaction data from the CRM database via MySQL and summarized data characteristics using statistical methods',
-      bullet2: 'Used Tableau to surface patterns, trends, and anomalies in the data',
+      bullet1: 'Pulled transaction data from the CRM database via MySQL and summarized data characteristics using statistical methods, identifying customer behavior patterns',
+      bullet2: 'Used Tableau to surface patterns, trends, and anomalies in the data, building dashboards to support team decisions',
       bullet3: 'Turned analysis into action by working directly with the business to fix root-cause issues',
       highlight: 'Lifted the transaction rate by 20% within three months'
     }

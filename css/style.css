@@ -372,6 +372,28 @@ button { font-family: inherit; }
   border: 1px solid var(--color-border);
 }
 .timeline-highlight { font-size: 14px; font-weight: 700; color: var(--color-accent-orange); }
+.timeline-photo-wrap { position: relative; }
+.timeline-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.timeline-photo-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, var(--color-surface) 0%, color-mix(in srgb, var(--color-surface) 90%, transparent) 100%);
+}
+.timeline-photo-wrap .timeline-role,
+.timeline-photo-wrap .timeline-bullets,
+.timeline-photo-wrap .timeline-tags,
+.timeline-photo-wrap .timeline-highlight {
+  position: relative;
+  z-index: 2;
+}
 
 /* ===== Projects ===== */
 .projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
