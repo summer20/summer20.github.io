@@ -17,6 +17,7 @@ window.CONTENT_ZH = {
   },
   about: {
     eyebrow: 'ABOUT ME',
+    lead: '应用统计硕士，拥有 KN Group、蔚来等三段数据分析实习经历，具备经营分析、风险分析及预测建模能力。熟练使用 SQL、Python 与 Tableau 开展业务分析，并能够利用 AI 工具开发自动化分析脚本和效率工具，将数据分析流程产品化，持续提升业务决策效率。',
     title: '关于我',
     labelName: '姓名',
     labelCity: '所在城市',
@@ -134,6 +135,7 @@ window.CONTENT_EN = {
   },
   about: {
     eyebrow: 'ABOUT ME',
+    lead: 'M.S. in Applied Statistics with three data-analytics internships at KN Group, NIO, and beyond, bringing hands-on experience in business analytics, risk analysis, and predictive modeling. Proficient in SQL, Python, and Tableau for business analysis, and skilled at using AI tools to build automated analysis scripts and efficiency tools — productizing the data-analysis workflow to continuously improve business decision-making.',
     title: 'About Me',
     labelName: 'Name',
     labelCity: 'City',

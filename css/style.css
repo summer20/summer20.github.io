@@ -223,7 +223,7 @@ button { font-family: inherit; }
   backdrop-filter: blur(6px);
 }
 .hero-avatar {
-  height: 240px;
+  height: 300px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -253,6 +253,13 @@ button { font-family: inherit; }
 }
 
 /* ===== About ===== */
+.about-lead {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-text);
+  max-width: 720px;
+  margin-bottom: var(--space-4);
+}
 .about-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
