@@ -98,7 +98,7 @@ window.CONTENT_ZH = {
     eyebrow: 'GALLERY',
     title: '生活',
     travel: '旅行', reading: '阅读', swim: '游泳', ukulele: '尤克里里',
-    pilates: '普拉提', award: '获奖时刻', study: '学习日常', friends: '朋友时光'
+    pilates: '普拉提', award: '获奖时刻', billiards: '台球', friends: '朋友时光'
   },
   contact: {
     eyebrow: 'CONTACT',
@@ -212,7 +212,7 @@ window.CONTENT_EN = {
     eyebrow: 'GALLERY',
     title: 'Gallery',
     travel: 'Travel', reading: 'Reading', swim: 'Swimming', ukulele: 'Ukulele',
-    pilates: 'Pilates', award: 'Award Moments', study: 'Study Life', friends: 'With Friends'
+    pilates: 'Pilates', award: 'Award Moments', billiards: 'Billiards', friends: 'With Friends'
   },
   contact: {
     eyebrow: 'CONTACT',
