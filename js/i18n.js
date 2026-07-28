@@ -82,8 +82,13 @@ window.CONTENT_ZH = {
     website: {
       badge: 'AI 实践',
       title: '个人展示网页 / 简历投递辅助工具',
-      desc: '利用 AI 完成个人展示网页及简历投递辅助工具开发，实现网页快速搭建与功能验证',
-      pending: '项目截图待补充'
+      desc: '利用 AI 完成个人展示网页及简历投递辅助工具开发，实现网页快速搭建与功能验证'
+    },
+    attendance: {
+      badge: '大数据课程项目',
+      title: '学生考勤管理系统',
+      desc: '基于 MySQL + Python(Tkinter) 搭建的学生考勤管理平台，实现学生/班级/考勤信息增删改查，并用 Matplotlib 提供班级出勤率对比、考勤类型占比、个人考勤趋势等多维度可视化分析',
+      metric: '覆盖 10 个班级、200 名学生、600+ 条考勤记录（模拟数据集）'
     }
   },
   achievements: {
@@ -196,8 +201,13 @@ window.CONTENT_EN = {
     website: {
       badge: 'AI Practice',
       title: 'Personal Site / Resume-Application Assistant Tool',
-      desc: 'Built a personal showcase site and a resume-application assistant tool with AI-assisted development, from rapid scaffolding to feature validation',
-      pending: 'Screenshot coming soon'
+      desc: 'Built a personal showcase site and a resume-application assistant tool with AI-assisted development, from rapid scaffolding to feature validation'
+    },
+    attendance: {
+      badge: 'Big Data Course Project',
+      title: 'Student Attendance Management System',
+      desc: 'Built a MySQL + Python (Tkinter) attendance management platform with full CRUD for students/classes/attendance records, plus Matplotlib-powered analytics — class attendance-rate comparisons, attendance-type breakdowns, and individual student trends',
+      metric: 'Covers 10 classes, 200 students, 600+ attendance records (simulated dataset)'
     }
   },
   achievements: {

@@ -358,7 +358,7 @@ button { font-family: inherit; }
 /* ===== Projects ===== */
 .projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
 .project-card { overflow: hidden; }
-.project-thumb { height: 160px; position: relative; overflow: hidden; }
+.project-thumb { display: block; width: 100%; height: 160px; position: relative; overflow: hidden; object-fit: cover; }
 .project-thumb--supply-chain {
   background: linear-gradient(135deg, var(--color-accent-cyan), var(--color-accent-violet));
 }
@@ -382,17 +382,14 @@ button { font-family: inherit; }
   content: ''; position: absolute; inset: 0;
   background: repeating-linear-gradient(45deg, rgba(255,255,255,0.14) 0 10px, transparent 10px 24px);
 }
-.project-thumb--pending {
-  border: 1px dashed var(--color-border);
-  background: var(--color-bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.project-thumb--attendance {
+  background: linear-gradient(135deg, var(--color-accent-violet), var(--color-accent-cyan) 50%, var(--color-accent-orange));
 }
-.project-thumb--pending span {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--color-text-muted);
+.project-thumb--attendance::after {
+  content: ''; position: absolute; inset: 0;
+  background-image:
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.14) 0 1px, transparent 1px 22px),
+    repeating-linear-gradient(-45deg, rgba(255,255,255,0.14) 0 1px, transparent 1px 22px);
 }
 .project-body { padding: var(--space-3); }
 .project-badge {
