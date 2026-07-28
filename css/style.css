@@ -223,10 +223,11 @@ button { font-family: inherit; }
   backdrop-filter: blur(6px);
 }
 .hero-avatar {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  background: var(--gradient-primary);
+  height: 240px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 16px 28px rgba(10, 15, 20, 0.28));
 }
 .hero-chip {
   position: absolute;
