@@ -7,7 +7,9 @@
     { label: 'SQL', value: 85 },
     { label: 'AI Tools', value: 82 },
     { label: 'Machine Learning', value: 78 },
-    { label: 'Power BI', value: 70 }
+    { label: 'Power BI', value: 70 },
+    { label: 'MySQL', value: 85 },
+    { label: 'Tableau', value: 75 }
   ];
 
   function polarPoint(cx, cy, radius, index, total) {

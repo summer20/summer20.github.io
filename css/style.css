@@ -294,16 +294,25 @@ button { font-family: inherit; }
 /* ===== Skills ===== */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 1fr;
   gap: var(--space-3);
 }
 .skills-radar-card {
-  grid-column: span 3;
+  grid-column: span 4;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: var(--space-4);
+}
+.skills-familiar-card { grid-column: span 4; padding: var(--space-3); }
+.skills-familiar-label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-accent-violet);
+  margin-bottom: 8px;
 }
 .radar-chart-mount { width: 100%; max-width: 320px; min-height: 260px; }
 /* min-height 避免 JS 未执行、SVG 未被注入时这张卡片直接塌成 0 高度——
@@ -335,10 +344,12 @@ button { font-family: inherit; }
 @media (max-width: 900px) {
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
   .skills-radar-card { grid-column: span 2; }
+  .skills-familiar-card { grid-column: span 2; }
 }
 @media (max-width: 560px) {
   .skills-grid { grid-template-columns: 1fr; }
   .skills-radar-card { grid-column: span 1; }
+  .skills-familiar-card { grid-column: span 1; }
 }
 
 /* ===== Experience ===== */
