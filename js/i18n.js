@@ -109,8 +109,6 @@ window.CONTENT_ZH = {
     eyebrow: 'CONTACT',
     title: '联系我',
     emailLabel: '邮箱',
-    wechatLabel: '微信',
-    wechatPending: '二维码待替换',
     resumeLabel: '简历',
     resumeCta: '下载简历'
   },
@@ -228,8 +226,6 @@ window.CONTENT_EN = {
     eyebrow: 'CONTACT',
     title: 'Contact Me',
     emailLabel: 'Email',
-    wechatLabel: 'WeChat',
-    wechatPending: 'QR code coming soon',
     resumeLabel: 'Resume',
     resumeCta: 'Download Resume'
   },
