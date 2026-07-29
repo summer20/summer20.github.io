@@ -64,30 +64,37 @@ window.CONTENT_ZH = {
     supplyChain: {
       badge: '国竞一等奖',
       title: '爆品供应链全渠道库存优化与风险建模研究',
-      desc: '构建 ARIMAX+TCN 需求预测模型，完成分渠道/分区域 13 周预测与风险区间测算；设计 MPC 动态库存优化框架，基于 XGBoost-SHAP 搭建风险传导模型',
+      desc1: '构建 ARIMAX+TCN 需求预测模型，完成分渠道/分区域 13 周预测与风险区间测算',
+      desc2: '设计 MPC 动态库存优化框架，基于 XGBoost-SHAP 搭建风险传导模型',
       metric: '库存周转率 +241.2% · 总成本 -25% · 服务水平 98.83%'
     },
     insurance: {
       badge: '美国 MCM Honorable Mention',
       title: '保险公司承保评级系统',
-      desc: '基于巨灾模型计算保险公司预期损失，通过泊松分布仿真模拟随机生成损失总价值和极端天气发生概率，采用空间分析技术构建 Bankruptcy Index Model',
+      desc1: '基于巨灾模型计算保险公司预期损失',
+      desc2: '通过泊松分布仿真模拟随机生成损失总价值和极端天气发生概率',
+      desc3: '采用空间分析技术构建 Bankruptcy Index Model',
       metric: '覆盖 146 个国家、16 万条数据'
     },
     automation: {
       badge: 'KN Group 实习产出',
       title: '业务自动化分析工具',
-      desc: '基于 Python（Pandas、OpenPyXL）开发自动化数据分析工具，实现放款金额、资产表现、坏账率等多维数据自动清洗、透视统计及 Excel 报表生成',
+      desc1: '基于 Python（Pandas、OpenPyXL）开发自动化数据分析工具',
+      desc2: '实现放款金额、资产表现、坏账率等多维数据自动清洗、透视统计及 Excel 报表生成',
       metric: '大幅提升周报/月报产出效率'
     },
     website: {
       badge: 'AI 实践',
       title: '个人展示网页 / 简历投递辅助工具',
-      desc: '利用 AI 完成个人展示网页及简历投递辅助工具开发，实现网页快速搭建与功能验证'
+      desc1: '利用 AI 完成个人展示网页及简历投递辅助工具开发',
+      desc2: '实现网页快速搭建与功能验证'
     },
     attendance: {
       badge: '大数据课程项目',
       title: '学生考勤管理系统',
-      desc: '基于 MySQL + Python(Tkinter) 搭建的学生考勤管理平台，实现学生/班级/考勤信息增删改查，并用 Matplotlib 提供班级出勤率对比、考勤类型占比、个人考勤趋势等多维度可视化分析',
+      desc1: '基于 MySQL + Python(Tkinter) 搭建的学生考勤管理平台',
+      desc2: '实现学生/班级/考勤信息增删改查',
+      desc3: '并用 Matplotlib 提供班级出勤率对比、考勤类型占比、个人考勤趋势等多维度可视化分析',
       metric: '覆盖 10 个班级、200 名学生、600+ 条考勤记录（模拟数据集）'
     }
   },
@@ -195,30 +202,37 @@ window.CONTENT_EN = {
     supplyChain: {
       badge: '1st Prize, National Competition',
       title: 'Omni-Channel Inventory Optimization & Risk Modeling for Hero SKUs',
-      desc: 'Built an ARIMAX+TCN demand forecasting model with 13-week forecasts and risk intervals by channel/region; designed an MPC dynamic inventory framework and an XGBoost-SHAP risk propagation model',
+      desc1: 'Built an ARIMAX+TCN demand forecasting model with 13-week forecasts and risk intervals by channel/region',
+      desc2: 'Designed an MPC dynamic inventory framework and an XGBoost-SHAP risk propagation model',
       metric: 'Inventory turnover +241.2% · Total cost -25% · Service level 98.83%'
     },
     insurance: {
       badge: 'US MCM Honorable Mention',
       title: 'Insurance Underwriting Rating System',
-      desc: 'Estimated insurer expected losses via catastrophe modeling, simulated loss severity and extreme-weather probability with Poisson processes, and built a spatial Bankruptcy Index Model',
+      desc1: 'Estimated insurer expected losses via catastrophe modeling',
+      desc2: 'Simulated loss severity and extreme-weather probability with Poisson processes',
+      desc3: 'Built a spatial Bankruptcy Index Model',
       metric: 'Covered 146 countries, 160K+ data points'
     },
     automation: {
       badge: 'KN Group Internship Output',
       title: 'Business Automation Analytics Tool',
-      desc: 'Built automated analysis tooling in Python (Pandas, OpenPyXL) that auto-cleans, pivots, and generates Excel reports across disbursement, asset performance, and NPL data',
+      desc1: 'Built automated analysis tooling in Python (Pandas, OpenPyXL)',
+      desc2: 'Auto-cleans, pivots, and generates Excel reports across disbursement, asset performance, and NPL data',
       metric: 'Significantly sped up weekly/monthly reporting'
     },
     website: {
       badge: 'AI Practice',
       title: 'Personal Site / Resume-Application Assistant Tool',
-      desc: 'Built a personal showcase site and a resume-application assistant tool with AI-assisted development, from rapid scaffolding to feature validation'
+      desc1: 'Built a personal showcase site and a resume-application assistant tool with AI-assisted development',
+      desc2: 'From rapid scaffolding to feature validation'
     },
     attendance: {
       badge: 'Big Data Course Project',
       title: 'Student Attendance Management System',
-      desc: 'Built a MySQL + Python (Tkinter) attendance management platform with full CRUD for students/classes/attendance records, plus Matplotlib-powered analytics — class attendance-rate comparisons, attendance-type breakdowns, and individual student trends',
+      desc1: 'Built a MySQL + Python (Tkinter) attendance management platform',
+      desc2: 'Full CRUD for students/classes/attendance records',
+      desc3: 'Plus Matplotlib-powered analytics — class attendance-rate comparisons, attendance-type breakdowns, and individual student trends',
       metric: 'Covers 10 classes, 200 students, 600+ attendance records (simulated dataset)'
     }
   },
