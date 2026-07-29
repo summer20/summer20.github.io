@@ -21,7 +21,7 @@
     var cx = 130, cy = 130, maxR = 96, total = SKILLS.length;
     var svgNS = 'http://www.w3.org/2000/svg';
     var svg = document.createElementNS(svgNS, 'svg');
-    svg.setAttribute('viewBox', '0 0 260 260');
+    svg.setAttribute('viewBox', '-40 -40 340 340');
     svg.setAttribute('class', 'radar-svg');
 
     [0.25, 0.5, 0.75, 1].forEach(function (ratio) {
