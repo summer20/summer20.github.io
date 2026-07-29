@@ -276,13 +276,6 @@ button { font-family: inherit; }
   margin-bottom: 8px;
 }
 .about-value { font-size: 16px; font-weight: 600; }
-.about-travel {
-  padding: var(--space-3);
-  font-size: 15px;
-  color: var(--color-text-muted);
-  border-left: 3px solid var(--color-accent-violet);
-  border-radius: var(--radius-card);
-}
 
 @media (max-width: 900px) {
   .about-grid { grid-template-columns: repeat(2, 1fr); }
@@ -474,23 +467,64 @@ button { font-family: inherit; }
 }
 
 /* ===== Gallery ===== */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 140px 350px 140px;
-  gap: var(--space-2);
-}
-.gallery-cell {
-  border-radius: var(--radius-card);
+.gallery-deck-wrap {
   display: flex;
-  align-items: flex-end;
-  padding: var(--space-2);
-  position: relative;
-  overflow: hidden;
-  transition: transform var(--transition-medium);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
 }
-.gallery-cell:hover { transform: scale(1.02); }
-.gallery-cell-img {
+.gallery-deck {
+  position: relative;
+  width: 280px;
+  height: 360px;
+  perspective: 1200px;
+}
+.deck-back-card {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-card);
+  background: var(--gradient-primary);
+  box-shadow: var(--shadow-card);
+}
+.deck-back-card--1 { transform: rotate(-4deg); opacity: 0.55; }
+.deck-back-card--2 { transform: rotate(6deg); opacity: 0.35; }
+.gallery-flipcard {
+  position: absolute;
+  inset: 0;
+}
+.gallery-flipcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+.gallery-flipcard.is-flipped .gallery-flipcard-inner { transform: rotateY(180deg); }
+.card-face {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  backface-visibility: hidden;
+  box-shadow: var(--shadow-card-hover);
+}
+.card-face--back {
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-face-logo {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.08em;
+}
+.card-face--front {
+  transform: rotateY(180deg);
+  background: var(--color-surface);
+}
+.card-face-img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -498,42 +532,46 @@ button { font-family: inherit; }
   object-fit: cover;
   z-index: 0;
 }
-.gallery-cell::after {
-  content: '';
+.card-face-scrim {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.6) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.65) 100%);
   z-index: 1;
 }
-.gallery-cell span {
-  position: relative;
+.card-face-label {
+  position: absolute;
+  left: var(--space-2);
+  bottom: 48px;
   z-index: 2;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   text-shadow: 0 1px 4px rgba(0,0,0,0.35);
 }
-.gallery-cell--travel   { grid-column: 1; grid-row: 1; }
-.gallery-cell--reading  { grid-column: 2; grid-row: 1; }
-.gallery-cell--swim     { grid-column: 3; grid-row: 1; }
-.gallery-cell--friends  { grid-column: 4; grid-row: 1 / span 2; }
-.gallery-cell--ukulele  { grid-column: 1; grid-row: 2; }
-.gallery-cell--pilates  { grid-column: 2; grid-row: 2; }
-.gallery-cell--award    { grid-column: 3; grid-row: 2; }
-.gallery-cell--billiards{ grid-column: 1; grid-row: 3; }
+.card-face-caption {
+  position: absolute;
+  left: var(--space-2);
+  right: var(--space-2);
+  bottom: var(--space-2);
+  z-index: 2;
+  color: rgba(255,255,255,0.9);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.card-face-caption:empty { display: none; }
+.gallery-deck-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.gallery-deck-counter {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
 
-@media (max-width: 768px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: none;
-    grid-auto-rows: 140px;
-  }
-  .gallery-cell--travel, .gallery-cell--reading, .gallery-cell--swim, .gallery-cell--friends,
-  .gallery-cell--ukulele, .gallery-cell--pilates, .gallery-cell--award, .gallery-cell--billiards {
-    grid-column: auto;
-    grid-row: auto;
-  }
-  .gallery-cell--friends { grid-row: span 2; }
+@media (prefers-reduced-motion: reduce) {
+  .gallery-flipcard-inner { transition: none; }
 }
 
 /* ===== Contact ===== */

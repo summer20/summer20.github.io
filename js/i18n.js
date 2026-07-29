@@ -29,8 +29,7 @@ window.CONTENT_ZH = {
     labelResearch: '研究方向',
     valueResearch: '经营分析、风险建模、预测建模',
     labelHobbies: '兴趣爱好',
-    valueHobbies: '阅读、普拉提、游泳、尤克里里、旅行',
-    travelNote: '旅行是我和朋友们的固定节目：轮流组队当"导游"，那一次由导游全权安排行程，其余人无条件跟随——目前已经轮了好几轮。'
+    valueHobbies: '阅读、普拉提、游泳、尤克里里、旅行'
   },
   skills: { eyebrow: 'SKILLS', title: '技能' },
   experience: {
@@ -116,7 +115,9 @@ window.CONTENT_ZH = {
     eyebrow: 'GALLERY',
     title: '生活',
     travel: '旅行', reading: '阅读', swim: '游泳', ukulele: '尤克里里',
-    pilates: '普拉提', award: '获奖时刻', billiards: '台球', friends: '朋友时光'
+    pilates: '普拉提', award: '获奖时刻', billiards: '台球', friends: '朋友时光',
+    travelCaption: '旅行是我和朋友们的固定节目：轮流组队当"导游"，那一次由导游全权安排行程，其余人无条件跟随——目前已经轮了好几轮。',
+    drawCta: '抽一张'
   },
   contact: {
     eyebrow: 'CONTACT',
@@ -159,8 +160,7 @@ window.CONTENT_EN = {
     labelResearch: 'Research Interests',
     valueResearch: 'Business Analytics, Risk Modeling, Forecasting',
     labelHobbies: 'Hobbies',
-    valueHobbies: 'Reading, Pilates, Swimming, Ukulele, Travel',
-    travelNote: 'Travel is a running tradition with my friends: we take turns being the "tour guide" for a trip — that person plans everything, and everyone else follows without question. We\'ve been through several rounds already.'
+    valueHobbies: 'Reading, Pilates, Swimming, Ukulele, Travel'
   },
   skills: { eyebrow: 'SKILLS', title: 'Skills' },
   experience: {
@@ -246,7 +246,9 @@ window.CONTENT_EN = {
     eyebrow: 'GALLERY',
     title: 'Gallery',
     travel: 'Travel', reading: 'Reading', swim: 'Swimming', ukulele: 'Ukulele',
-    pilates: 'Pilates', award: 'Award Moments', billiards: 'Billiards', friends: 'With Friends'
+    pilates: 'Pilates', award: 'Award Moments', billiards: 'Billiards', friends: 'With Friends',
+    travelCaption: 'Travel is a running tradition with my friends: we take turns being the "tour guide" for a trip — that person plans everything, and everyone else follows without question. We\'ve been through several rounds already.',
+    drawCta: 'Draw a Card'
   },
   contact: {
     eyebrow: 'CONTACT',

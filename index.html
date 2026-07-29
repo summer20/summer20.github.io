@@ -94,9 +94,6 @@
             <p class="about-value" data-i18n-key="about.valueHobbies">阅读、普拉提、游泳、尤克里里、旅行</p>
           </div>
         </div>
-        <div class="card about-travel" data-reveal>
-          <p data-i18n-key="about.travelNote">旅行是我和朋友们的固定节目：轮流组队当"导游"，那一次由导游全权安排行程，其余人无条件跟随——目前已经轮了好几轮。</p>
-        </div>
       </div>
     </section>
     <section id="skills" class="section">
@@ -332,38 +329,27 @@
       <div class="container">
         <p class="section-eyebrow" data-i18n-key="gallery.eyebrow">GALLERY</p>
         <h2 class="section-title" data-i18n-key="gallery.title">生活</h2>
-        <div class="gallery-grid">
-          <div class="gallery-cell gallery-cell--travel" data-reveal>
-            <img class="gallery-cell-img" src="assets/images/gallery-travel.jpg" alt="陈慧莹戴草帽在茶园旅行留影" loading="lazy">
-            <span data-i18n-key="gallery.travel">旅行</span>
+        <div class="gallery-deck-wrap" data-reveal>
+          <div class="gallery-deck">
+            <span class="deck-back-card deck-back-card--2" aria-hidden="true"></span>
+            <span class="deck-back-card deck-back-card--1" aria-hidden="true"></span>
+            <div class="gallery-flipcard" id="gallery-flipcard">
+              <div class="gallery-flipcard-inner">
+                <div class="card-face card-face--back">
+                  <span class="card-face-logo">陈慧莹</span>
+                </div>
+                <div class="card-face card-face--front">
+                  <img class="card-face-img" id="gallery-card-img" src="" alt="" loading="lazy">
+                  <div class="card-face-scrim"></div>
+                  <span class="card-face-label" id="gallery-card-label"></span>
+                  <p class="card-face-caption" id="gallery-card-caption"></p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="gallery-cell gallery-cell--reading" data-reveal>
-            <img class="gallery-cell-img" src="assets/images/gallery-reading.jpg" alt="书桌上一摞个人成长类书籍" loading="lazy">
-            <span data-i18n-key="gallery.reading">阅读</span>
-          </div>
-          <div class="gallery-cell gallery-cell--swim" data-reveal>
-            <img class="gallery-cell-img" src="assets/images/gallery-swim.jpg" alt="陈慧莹在泳池中自由泳练习" loading="lazy">
-            <span data-i18n-key="gallery.swim">游泳</span>
-          </div>
-          <div class="gallery-cell gallery-cell--ukulele" data-reveal>
-            <img class="gallery-cell-img" src="assets/images/gallery-ukulele.jpg" alt="陈慧莹弹尤克里里自拍" loading="lazy">
-            <span data-i18n-key="gallery.ukulele">尤克里里</span>
-          </div>
-          <div class="gallery-cell gallery-cell--pilates" data-reveal>
-            <img class="gallery-cell-img" src="assets/images/gallery-pilates.jpg" alt="陈慧莹在普拉提工作室镜前自拍" loading="lazy">
-            <span data-i18n-key="gallery.pilates">普拉提</span>
-          </div>
-          <div class="gallery-cell gallery-cell--award" data-reveal>
-            <img class="gallery-cell-img" src="assets/images/gallery-award.jpg" alt="陈慧莹与团队在竞赛颁奖典礼上合影领奖" loading="lazy">
-            <span data-i18n-key="gallery.award">获奖时刻</span>
-          </div>
-          <div class="gallery-cell gallery-cell--billiards" data-reveal>
-            <img class="gallery-cell-img" src="assets/images/gallery-billiards.jpg" alt="陈慧莹在台球厅打台球" loading="lazy">
-            <span data-i18n-key="gallery.billiards">台球</span>
-          </div>
-          <div class="gallery-cell gallery-cell--friends" data-reveal>
-            <img class="gallery-cell-img" src="assets/images/gallery-friends.jpg" alt="陈慧莹与朋友们在草坪野餐合影" loading="lazy">
-            <span data-i18n-key="gallery.friends">朋友时光</span>
+          <div class="gallery-deck-controls">
+            <button type="button" class="btn btn-primary" id="gallery-draw-btn" data-i18n-key="gallery.drawCta">抽一张</button>
+            <span class="gallery-deck-counter" id="gallery-deck-counter">0 / 8</span>
           </div>
         </div>
       </div>
@@ -396,5 +382,6 @@
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script src="js/visualizations.js"></script>
+  <script src="js/gallery-cards.js"></script>
 </body>
 </html>
