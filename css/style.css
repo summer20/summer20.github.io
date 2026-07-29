@@ -440,7 +440,6 @@ button { font-family: inherit; }
   margin-bottom: 8px;
 }
 .project-body h3 { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
-.project-desc { font-size: 14px; color: var(--color-text-muted); margin-bottom: 10px; }
 .project-metric { font-size: 13px; font-weight: 700; color: var(--color-accent-orange); }
 
 @media (max-width: 768px) {
