@@ -406,6 +406,7 @@ button { font-family: inherit; }
 }
 .timeline-node-dot {
   grid-column: 2;
+  grid-row: 1;
   justify-self: center;
   width: 16px;
   height: 16px;
@@ -416,10 +417,10 @@ button { font-family: inherit; }
   z-index: 1;
   box-shadow: 0 0 0 4px var(--color-bg);
 }
-.timeline-node--right .timeline-node-text  { grid-column: 1; padding-right: var(--space-3); }
-.timeline-node--right .timeline-node-media { grid-column: 3; padding-left: var(--space-3); }
-.timeline-node--left .timeline-node-media { grid-column: 1; padding-right: var(--space-3); }
-.timeline-node--left .timeline-node-text  { grid-column: 3; padding-left: var(--space-3); }
+.timeline-node--right .timeline-node-text  { grid-column: 1; grid-row: 1; padding-right: var(--space-3); }
+.timeline-node--right .timeline-node-media { grid-column: 3; grid-row: 1; padding-left: var(--space-3); }
+.timeline-node--left .timeline-node-media { grid-column: 1; grid-row: 1; padding-right: var(--space-3); }
+.timeline-node--left .timeline-node-text  { grid-column: 3; grid-row: 1; padding-left: var(--space-3); }
 .timeline-node-media { align-self: center; }
 .project-card { overflow: hidden; }
 .project-thumb { display: block; width: 100%; height: 160px; position: relative; overflow: hidden; object-fit: cover; }
