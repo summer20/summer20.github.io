@@ -261,28 +261,55 @@ button { font-family: inherit; }
   max-width: 720px;
   margin-bottom: var(--space-4);
 }
-.about-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-3);
+.about-feature {
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;
+  display: flex;
+  align-items: flex-end;
   margin-bottom: var(--space-3);
 }
-.about-card { padding: var(--space-3); }
-.about-label {
+.about-feature-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.about-feature-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(10, 15, 20, 0.15) 0%, rgba(10, 15, 20, 0.55) 45%, rgba(10, 15, 20, 0.88) 100%);
+}
+.about-feature-info {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3) var(--space-4);
+  padding: var(--space-4);
+  width: 100%;
+}
+.about-feature-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.about-item .about-label {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--color-text-muted);
-  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.68);
+  margin-bottom: 4px;
 }
-.about-value { font-size: 16px; font-weight: 600; }
+.about-item .about-value { font-size: 16px; font-weight: 700; color: #fff; }
 
-@media (max-width: 900px) {
-  .about-grid { grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 560px) {
-  .about-grid { grid-template-columns: 1fr; }
+@media (max-width: 700px) {
+  .about-feature { min-height: 0; }
+  .about-feature-info { grid-template-columns: 1fr; }
 }
 
 /* ===== Skills ===== */
