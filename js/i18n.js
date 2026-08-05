@@ -13,6 +13,7 @@ window.CONTENT_ZH = {
     slogan: '用数据解决问题，用 AI 提升效率，把创意变成真正可落地的产品。',
     ctaProjects: '查看项目',
     ctaResume: '下载简历',
+    ctaPortfolio: '下载作品集',
     ctaContact: '联系我'
   },
   about: {
@@ -151,6 +152,7 @@ window.CONTENT_EN = {
     slogan: 'Solving problems with data, boosting efficiency with AI, turning ideas into products that actually ship.',
     ctaProjects: 'View Projects',
     ctaResume: 'Download Resume',
+    ctaPortfolio: 'Download Portfolio',
     ctaContact: 'Contact Me'
   },
   about: {
